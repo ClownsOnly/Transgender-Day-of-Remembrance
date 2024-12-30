@@ -1,0 +1,85 @@
+html {
+    min-height: 100%;
+    min-width: fit-content;
+    background: linear-gradient(#5BCEFA,#F5A9B8,white,#F5A9B8,#5BCEFA) no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color:#00141c;
+}
+ 
+.title {
+    font-size: 65px;
+    margin: 100px 0 60px 0;
+}
+
+.title-alt {
+    font-size: 65px;
+    margin: 75px 0 20px 0;
+}
+
+.choices {
+    margin-bottom: 40px;
+}
+
+.main-anchor {
+    display: block;
+    border: #00141c 2px solid;
+    width: 700px;
+    margin: 8px auto 7px auto;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    background-color:rgba(255,255,255,0.5);
+    font-size: 40px;
+    /* change black to another dark color... dark blue prob */
+}
+
+.ind-choices {
+    display: block;
+    border: #00141c 2px solid;
+    /* width: 700px; */
+    margin: 8px auto 7px auto;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    background-color:rgba(255,255,255,0.5);
+    /* font-size: 40px; */
+    color: #00141c;
+}
+
+.info {
+    width: 650px;
+    margin: 0 auto;
+    font-size: 23px;
+}
+
+.other-page {
+    font-size: 20px;
+    width: 500px;
+    margin: 10px auto;
+}
+
+ul {
+    text-align: left;
+    list-style-position: inside;
+}
+
+li {
+    padding: 1px 15px;
+}
+
+.bg-highlight {
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 10px;
+    padding: 10px 5px;
+    border: #00141c 1px solid;
+}
+
+a {
+    color:#b33951;
+}
